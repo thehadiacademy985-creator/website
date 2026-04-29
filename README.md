@@ -1,134 +1,131 @@
-# UZAIR Ice Cream Corner - Website
+# 🎓 Hadi Academy - Educational Website
 
-A modern, responsive website for UZAIR Ice Cream Corner located in Punjab Colony, Karachi.
+A modern, responsive educational website for The Hadi Academy, offering computer science and IT courses with a professional design suitable for students.
 
-## Features
+## 📋 Features
 
-✨ **Modern Design**
-- Bright and colorful pastel theme inspired by ice cream colors
-- Fully responsive layout (works on desktop, tablet, and mobile)
-- Smooth animations and transitions
-- Eye-catching hero section with emojis and visual elements
+### 🏠 Navigation & Structure
+- **Sticky Navigation Bar** with smooth scrolling links
+- **Mobile-responsive hamburger menu**
+- **Smooth scroll behavior** across all sections
+- **Active navigation highlighting** based on current section
 
-📱 **Mobile-Friendly**
-- Mobile hamburger menu for navigation
-- Optimized touch interactions
+### 🎯 Hero Section
+- Large, eye-catching hero section with gradient background
+- Prominent title "Hadi Academy"
+- Subtitle "Admissions Open for Computer Courses"
+- Call-to-action button "Apply Now"
+- Animated floating shapes and gradients
+
+### 📢 Announcement Section
+- Eye-catching announcement banner
+- Clear admissions message with icon
+- Responsive design that adapts to all screen sizes
+
+### 📚 Courses Section
+- **6 Computer-Related Courses:**
+  1. **Web Development** - HTML, CSS, JavaScript, React/Vue.js
+  2. **Graphic Design** - Adobe Creative Suite, UI/UX Design
+  3. **MS Office** - Word, Excel, PowerPoint, Access
+  4. **Programming Basics** - Python, C++, Data Structures
+  5. **AI & Machine Learning** - ML Fundamentals, TensorFlow
+  6. **Database Management** - SQL, Database Design, NoSQL
+
+- Course cards with:
+  - Font Awesome icons for each course
+  - Course descriptions
+  - Key topics list with checkmarks
+  - Hover animations and transitions
+
+### ℹ️ About Section
+- Professional introduction to Hadi Academy
+- Three key features:
+  - ⭐ Quality Education
+  - ⚙️ Skill-Based Learning
+  - 🚀 Career Development
+- Responsive two-column layout with illustration
+
+### 📧 Contact Section
+- Developer information display
+- Contact details (Phone, Email)
+- Professional contact form with fields:
+  - Name
+  - Email
+  - Message
+- Form validation and submission handling
+
+### 🎉 Admission Modal
+- Pop-up application form
+- Fields for:
+  - Full Name
+  - Email
+  - Phone Number
+  - Course Selection (dropdown)
+  - Educational Background
+- Form validation and submission
+
+### 🔗 Footer
+- Academy branding
+- Quick navigation links
+- Contact information
+- Social media ready
+- Copyright information
+
+## 🎨 Design Features
+
+### Color Scheme
+- **Primary Blue**: #0066cc
+- **Secondary Blue**: #00a8ff
+- **White**: #ffffff
+- **Light Background**: #f8f9fa
+- **Accent Red**: #ff6b6b
+
+### Modern Design Elements
+- Smooth gradients and animations
+- Floating shape animations
+- Hover effects on cards
+- Smooth scrolling transitions
+- Box shadows and depth effects
 - Responsive grid layouts
-- Fast loading and performance
 
-🍦 **Key Sections**
+### Animations
+- Slide-up animations on page load
+- Hover transformations on buttons and cards
+- Scroll-triggered animations for course cards
+- Floating background shapes
+- Modal fade-in/slide-down effects
+- Smooth navigation transitions
 
-1. **Navigation Bar** - Sticky navigation with smooth scrolling
-2. **Hero Section** - Eye-catching banner with call-to-action button
-3. **About Us** - Company information and key features
-4. **Menu** - 9 different ice cream flavors with prices
-   - Chocolate Delight (Rs. 250)
-   - Classic Vanilla (Rs. 220)
-   - Strawberry Dream (Rs. 270)
-   - Mango Paradise (Rs. 280)
-   - Pistachio Bliss (Rs. 290)
-   - Mint Chocolate Chip (Rs. 260)
-   - Cookies & Cream (Rs. 280)
-   - Caramel Swirl (Rs. 270)
-   - Bubblegum Fun (Rs. 240)
+## 📱 Responsive Design
 
-5. **Services** - Highlights key services:
-   - Free Home Delivery
-   - Fast Service
-   - Customer Satisfaction
-   - Special Events & Bulk Orders
+### Breakpoints
+- **Desktop**: 1200px+ (full layout)
+- **Tablet**: 768px - 1199px (adjusted grid)
+- **Mobile**: 480px - 767px (single column)
+- **Small Mobile**: < 480px (optimized layout)
 
-6. **Customer Reviews** - Testimonials and ratings
-7. **Contact Section** - 
-   - Contact information
-   - Phone: 03038315775
-   - Address: Punjab Colony, Karachi (Near Hadi Academy)
-   - Contact form with WhatsApp integration
-   - Social media links
+### Mobile Features
+- Hamburger menu that toggles navigation
+- Single-column layouts for forms and content
+- Optimized touch targets
+- Responsive font sizes
+- Proper spacing for mobile devices
 
-8. **Footer** - Copyright and attribution
+## 🛠️ Technology Stack
 
-## Technology Stack
-
+### Frontend
 - **HTML5** - Semantic markup
-- **CSS3** - Modern styling with gradients, animations, and flexbox/grid
-- **JavaScript** - Interactivity and form handling
-- **Font Awesome** - Icons for social media and features
+- **CSS3** - Modern styling with gradients, flexbox, grid
+- **JavaScript (ES6)** - Interactive features
+- **Font Awesome Icons** - Professional icon library
 
-## Features Implemented
+### Features Implemented
+- Vanilla JavaScript (no dependencies)
+- Responsive CSS Grid and Flexbox
+- Intersection Observer API for scroll animations
+- Form validation
+- Modal functionality
+- Smooth scrolling
+- Mobile menu toggle
 
-✅ Responsive Design
-✅ Mobile Navigation Menu
-✅ Smooth Scrolling
-✅ Contact Form with WhatsApp Integration
-✅ Animated Elements
-✅ Social Media Links
-✅ Customer Testimonials
-✅ Menu Display with Prices
-✅ Service Highlights
-✅ Modern Color Scheme
-✅ Accessibility Considerations
-✅ Fast Performance
-
-## Color Scheme
-
-- **Primary (Pink)**: #FF69B4
-- **Secondary (Sky Blue)**: #87CEEB
-- **Accent (Gold)**: #FFD700
-- **Light Background**: #FFF0F5
-- **Dark Text**: #333333
-
-## How to Use
-
-1. Open `index.html` in your web browser
-2. Navigate through different sections using the menu
-3. Click "Order Now" to see the menu
-4. Fill out the contact form to send a message (integrates with WhatsApp)
-5. Call the phone number or visit the shop directly
-
-## Contact Information
-
-**UZAIR Ice Cream Corner**
-- 📞 Phone: **03038315775**
-- 📍 Location: Punjab Colony, Karachi (Near Hadi Academy)
-- ⏰ Hours: 2:00 PM - 11:00 PM (Mon-Sun)
-- 🚚 Free Home Delivery Available
-
-## Social Media
-
-- Facebook
-- Instagram
-- WhatsApp
-- Twitter
-
-## File Structure
-
-```
-.
-├── index.html      # Main HTML file
-├── styles.css      # CSS styling
-├── script.js       # JavaScript functionality
-└── README.md       # This file
-```
-
-## Browser Compatibility
-
-- Chrome (Latest)
-- Firefox (Latest)
-- Safari (Latest)
-- Edge (Latest)
-- Mobile browsers
-
-## License
-
-This website was created for UZAIR Ice Cream Corner, Karachi, Pakistan.
-All rights reserved © 2026
-
-## Support
-
-For any issues or feature requests, please contact:
-📞 03038315775
-
----
-
-**Made with ❤️ in Karachi, Pakistan**
+## 📁 File Structure

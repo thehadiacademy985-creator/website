@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hadi Academy - Computer Courses & IT Education</title>
+    <title>UZAIR Ice Cream Corner - Delicious Ice Cream Delivered</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-wrapper">
-                <div class="logo">
-                    <i class="fas fa-graduation-cap"></i>
-                    <span>Hadi Academy</span>
-                </div>
-                <button class="menu-toggle" id="menuToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#home" class="scroll-link">Home</a></li>
-                    <li><a href="#courses" class="scroll-link">Courses</a></li>
-                    <li><a href="#about" class="scroll-link">About</a></li>
-                    <li><a href="#contact" class="scroll-link">Contact</a></li>
-                </ul>
+            <div class="navbar-brand">
+                <h1>🍦 UZAIR Ice Cream Corner</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
@@ -34,156 +33,209 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Hadi Academy</h1>
-            <p class="hero-subtitle">Admissions Open for Computer Courses</p>
-            <button class="cta-button" id="applyBtn">Apply Now</button>
+            <h2 class="hero-title">UZAIR Ice Cream Corner</h2>
+            <p class="hero-tagline">Delicious Ice Cream Delivered to Your Doorstep 🍦</p>
+            <p class="hero-subtitle">Fresh, Creamy, and Irresistible Flavors</p>
+            <a href="#menu" class="btn btn-primary">Order Now</a>
         </div>
         <div class="hero-background">
-            <div class="gradient-shape shape-1"></div>
-            <div class="gradient-shape shape-2"></div>
-        </div>
-    </section>
-
-    <!-- Announcement Section -->
-    <section class="announcement">
-        <div class="container">
-            <div class="announcement-content">
-                <div class="announcement-icon">
-                    <i class="fas fa-bullhorn"></i>
-                </div>
-                <div class="announcement-text">
-                    <h2>📢 Admissions Open!</h2>
-                    <p>Admissions are now open for computer-related courses. Enroll today and start your journey in IT!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Courses Section -->
-    <section id="courses" class="courses">
-        <div class="container">
-            <h2 class="section-title">Our Courses</h2>
-            <p class="section-subtitle">Master IT Skills with Our Comprehensive Programs</p>
-            
-            <div class="courses-grid">
-                <!-- Web Development -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Learn HTML, CSS, JavaScript, and modern frameworks. Build responsive and interactive websites.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> HTML5 & CSS3</li>
-                        <li><i class="fas fa-check"></i> JavaScript</li>
-                        <li><i class="fas fa-check"></i> React / Vue.js</li>
-                    </ul>
-                </div>
-
-                <!-- Graphic Design -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>Graphic Design</h3>
-                    <p>Master visual design principles and industry-standard tools. Create stunning graphics and designs.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> Adobe Creative Suite</li>
-                        <li><i class="fas fa-check"></i> UI/UX Design</li>
-                        <li><i class="fas fa-check"></i> Brand Design</li>
-                    </ul>
-                </div>
-
-                <!-- MS Office -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-file-word"></i>
-                    </div>
-                    <h3>MS Office</h3>
-                    <p>Complete mastery of Microsoft Office suite. Boost your productivity and professional skills.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> Word & Excel</li>
-                        <li><i class="fas fa-check"></i> PowerPoint</li>
-                        <li><i class="fas fa-check"></i> Access & Outlook</li>
-                    </ul>
-                </div>
-
-                <!-- Programming Basics -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Programming Basics</h3>
-                    <p>Foundation programming course. Learn logic, problem-solving, and coding fundamentals.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> Python / C++</li>
-                        <li><i class="fas fa-check"></i> Data Structures</li>
-                        <li><i class="fas fa-check"></i> Algorithm Design</li>
-                    </ul>
-                </div>
-
-                <!-- AI & Machine Learning -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>AI & Machine Learning</h3>
-                    <p>Explore artificial intelligence and machine learning basics. Understand modern AI applications.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> ML Fundamentals</li>
-                        <li><i class="fas fa-check"></i> Python for AI</li>
-                        <li><i class="fas fa-check"></i> TensorFlow Basics</li>
-                    </ul>
-                </div>
-
-                <!-- Database Management -->
-                <div class="course-card">
-                    <div class="course-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>Database Management</h3>
-                    <p>Learn database design and management. Master SQL and modern database technologies.</p>
-                    <ul class="course-topics">
-                        <li><i class="fas fa-check"></i> SQL Fundamentals</li>
-                        <li><i class="fas fa-check"></i> Database Design</li>
-                        <li><i class="fas fa-check"></i> NoSQL Basics</li>
-                    </ul>
-                </div>
-            </div>
+            <div class="ice-cream-visual">🍨</div>
+            <div class="ice-cream-visual">🍦</div>
+            <div class="ice-cream-visual">🍧</div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Hadi Academy</h2>
+            <h2 class="section-title">About Us</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Quality Education for Future IT Professionals</h3>
-                    <p>Hadi Academy is dedicated to providing world-class education in computer science and information technology. We believe in empowering students with practical skills and theoretical knowledge.</p>
-                    
+                    <h3>Welcome to UZAIR Ice Cream Corner</h3>
+                    <p>Located in the heart of Punjab Colony, Karachi, UZAIR Ice Cream Corner is your ultimate destination for premium, homemade ice cream with authentic flavors.</p>
                     <div class="about-features">
                         <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h4>100% Fresh Ingredients</h4>
+                            <p>We use only the finest and freshest ingredients sourced locally.</p>
+                        </div>
+                        <div class="feature">
                             <i class="fas fa-star"></i>
-                            <h4>Quality Education</h4>
-                            <p>Comprehensive curriculum designed by industry experts with practical approach to learning.</p>
+                            <h4>Premium Quality</h4>
+                            <p>Crafted with love and attention to detail for your satisfaction.</p>
                         </div>
                         <div class="feature">
-                            <i class="fas fa-cogs"></i>
-                            <h4>Skill-Based Learning</h4>
-                            <p>Hands-on projects and real-world assignments to develop practical skills needed in the industry.</p>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-rocket"></i>
-                            <h4>Career Development</h4>
-                            <p>Career guidance and placement support to help students succeed in their IT career journey.</p>
+                            <i class="fas fa-palette"></i>
+                            <h4>Variety of Flavors</h4>
+                            <p>From classic to exotic, we have something for everyone.</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <div class="about-illustration">
-                        <i class="fas fa-laptop-code"></i>
+                    <div class="image-placeholder">🍨</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Explore our delicious selection of flavors</p>
+            <div class="menu-grid">
+                <!-- Chocolate -->
+                <div class="menu-item">
+                    <div class="menu-item-image chocolate">🍫</div>
+                    <h3>Chocolate Delight</h3>
+                    <p class="flavor-description">Rich, creamy chocolate with a smooth finish</p>
+                    <p class="price">Rs. 250</p>
+                </div>
+
+                <!-- Vanilla -->
+                <div class="menu-item">
+                    <div class="menu-item-image vanilla">🍦</div>
+                    <h3>Classic Vanilla</h3>
+                    <p class="flavor-description">Timeless vanilla with real vanilla extract</p>
+                    <p class="price">Rs. 220</p>
+                </div>
+
+                <!-- Strawberry -->
+                <div class="menu-item">
+                    <div class="menu-item-image strawberry">🍓</div>
+                    <h3>Strawberry Dream</h3>
+                    <p class="flavor-description">Sweet strawberry made with fresh berries</p>
+                    <p class="price">Rs. 270</p>
+                </div>
+
+                <!-- Mango -->
+                <div class="menu-item">
+                    <div class="menu-item-image mango">🥭</div>
+                    <h3>Mango Paradise</h3>
+                    <p class="flavor-description">Tropical mango perfection, summer favorite</p>
+                    <p class="price">Rs. 280</p>
+                </div>
+
+                <!-- Pistachio -->
+                <div class="menu-item">
+                    <div class="menu-item-image pistachio">💚</div>
+                    <h3>Pistachio Bliss</h3>
+                    <p class="flavor-description">Nutty pistachio with a hint of sweetness</p>
+                    <p class="price">Rs. 290</p>
+                </div>
+
+                <!-- Mint Choco -->
+                <div class="menu-item">
+                    <div class="menu-item-image mint">🌿</div>
+                    <h3>Mint Chocolate Chip</h3>
+                    <p class="flavor-description">Refreshing mint with dark chocolate chunks</p>
+                    <p class="price">Rs. 260</p>
+                </div>
+
+                <!-- Cookies & Cream -->
+                <div class="menu-item">
+                    <div class="menu-item-image cookie">🍪</div>
+                    <h3>Cookies & Cream</h3>
+                    <p class="flavor-description">Vanilla ice cream with crushed cookies</p>
+                    <p class="price">Rs. 280</p>
+                </div>
+
+                <!-- Caramel -->
+                <div class="menu-item">
+                    <div class="menu-item-image caramel">🟤</div>
+                    <h3>Caramel Swirl</h3>
+                    <p class="flavor-description">Sweet caramel with smooth vanilla base</p>
+                    <p class="price">Rs. 270</p>
+                </div>
+
+                <!-- Bubblegum -->
+                <div class="menu-item">
+                    <div class="menu-item-image bubblegum">🩷</div>
+                    <h3>Bubblegum Fun</h3>
+                    <p class="flavor-description">Playful bubblegum flavor, kids' favorite</p>
+                    <p class="price">Rs. 240</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🚚</div>
+                    <h3>Free Home Delivery</h3>
+                    <p>We deliver fresh ice cream right to your doorstep at no additional cost within Punjab Colony and surrounding areas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Fast Service</h3>
+                    <p>Quick order processing and delivery to ensure your ice cream arrives fresh and cold.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">😊</div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>Your satisfaction is our priority. We guarantee quality products and excellent customer service.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Special Events</h3>
+                    <p>Perfect for birthdays, parties, and celebrations. Bulk orders welcome with special discounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
+                    <p class="review-text">"Best ice cream in Karachi! The mango flavor is absolutely divine. Delivery was super fast too!"</p>
+                    <p class="reviewer-name">- Ahmed Khan</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"My family loves UZAIR! The chocolate flavor is rich and creamy. Can't wait for the next order!"</p>
+                    <p class="reviewer-name">- Fatima Ahmed</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Fresh, delicious, and delivered quickly. The free home delivery is amazing. Highly recommended!"</p>
+                    <p class="reviewer-name">- Hassan Ali</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Perfect for summer! Kids love the bubblegum flavor. Great quality and very affordable prices."</p>
+                    <p class="reviewer-name">- Sarah Khan</p>
                 </div>
             </div>
         </div>
@@ -194,110 +246,68 @@
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-wrapper">
-                <!-- Contact Info -->
                 <div class="contact-info">
-                    <div class="info-card">
-                        <i class="fas fa-user-tie"></i>
-                        <h3>Developer</h3>
-                        <p>Sir Uzair Ali Shah Bukhari</p>
-                    </div>
-                    <div class="info-card">
+                    <div class="info-item">
                         <i class="fas fa-phone"></i>
-                        <h3>Phone</h3>
-                        <p><a href="tel:+923043041472">+92 304 3041472</a></p>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:03038315775">03038315775</a></p>
+                        </div>
                     </div>
-                    <div class="info-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:info@hadiacademy.com">info@hadiacademy.com</a></p>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Punjab Colony, Karachi<br>Near Hadi Academy</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Sun: 2:00 PM - 11:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Contact Form -->
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required placeholder="Your message here..." rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email (Optional)</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us your message or special request"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Admission Modal -->
-    <div id="admissionModal" class="modal">
-        <div class="modal-content">
-            <button class="modal-close" id="modalClose">&times;</button>
-            <h2>Application Form</h2>
-            <form id="admissionForm">
-                <div class="form-group">
-                    <label for="appName">Full Name</label>
-                    <input type="text" id="appName" name="name" required placeholder="Enter your full name">
-                </div>
-                <div class="form-group">
-                    <label for="appEmail">Email</label>
-                    <input type="email" id="appEmail" name="email" required placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="appPhone">Phone Number</label>
-                    <input type="tel" id="appPhone" name="phone" required placeholder="Enter your phone number">
-                </div>
-                <div class="form-group">
-                    <label for="appCourse">Select Course</label>
-                    <select id="appCourse" name="course" required>
-                        <option value="">Choose a course</option>
-                        <option value="web-development">Web Development</option>
-                        <option value="graphic-design">Graphic Design</option>
-                        <option value="ms-office">MS Office</option>
-                        <option value="programming-basics">Programming Basics</option>
-                        <option value="ai-ml">AI & Machine Learning</option>
-                        <option value="database">Database Management</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="appEducation">Educational Background</label>
-                    <textarea id="appEducation" name="education" placeholder="Tell us about your education..." rows="4"></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Submit Application</button>
-            </form>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4><i class="fas fa-graduation-cap"></i> Hadi Academy</h4>
-                    <p>Empowering students with quality IT education and career development.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <p>Phone: <a href="tel:+923043041472">+92 304 3041472</a></p>
-                    <p>Developer: Sir Uzair Ali Shah Bukhari</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Hadi Academy. All rights reserved. | Designed with <i class="fas fa-heart"></i> for education</p>
-            </div>
+            <p>&copy; 2026 UZAIR Ice Cream Corner. All rights reserved.</p>
+            <p>Made with ❤️ in Karachi, Pakistan</p>
         </div>
     </footer>
 
